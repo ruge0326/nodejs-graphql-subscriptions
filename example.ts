@@ -11,7 +11,7 @@ getSubscription({
   }`,
   connectionParams: {
     headers: {
-      'x-hasura-admin-secret':  '=NBc;?2eduh)?mxq'
+      'x-hasura-admin-secret':  'XXX'
     }
   },
   onData: (data)=> {
