@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("./index");
+console.log('example');
 index_1.getSubscription({
-    url: 'http://192.168.0.101:8088/v1/graphql',
+    url: 'http://192.168.100.199:8088/v1/graphql',
     query: `subscription ContractMappings {
     mappings {
       api_user_id

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "lib": ["esnext"],
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "ES6",
+        "baseUrl": "./",
+        "rootDirs": ["/"],
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "declaration": true,
+        "moduleResolution": "node"
+      },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }

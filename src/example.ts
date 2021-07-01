@@ -1,7 +1,7 @@
 import { getSubscription } from './index'
-
+console.log('example')
 getSubscription({
-  url: 'http://192.168.0.101:8088/v1/graphql',
+  url: 'http://192.168.100.199:8088/v1/graphql',
   query: `subscription ContractMappings {
     mappings {
       api_user_id
